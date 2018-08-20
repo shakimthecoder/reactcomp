@@ -74,12 +74,6 @@ var Layout = function (_Component) {
               null,
               'health: ',
               this.state.health
-            ),
-            _react2.default.createElement(
-              'h3',
-              null,
-              'level: ',
-              this.state.level
             )
           ),
           _react2.default.createElement('img', { src: '/img/bape2.png', alt: 'guy with bape on', onClick: this.clickedBoy })
