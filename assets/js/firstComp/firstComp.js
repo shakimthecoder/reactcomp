@@ -28,7 +28,7 @@ class Layout extends Component {
     <div className={'user-info'}>
     <h3>name: {this.state.name}</h3>
     <h3>health: {this.state.health}</h3>
-    
+    <h3>level: {this.state.level}</h3>
     </div>
     <img src="/img/bape2.png" alt={'guy with bape on'} onClick ={this.clickedBoy} />
           </div>
