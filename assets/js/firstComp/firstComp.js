@@ -36,6 +36,27 @@ class Layout extends Component {
 
   }
 }
+class GirlImage extends Component {
+  constructor () {
+    super()
+    this.state = {
+    }
+  }
+  render () {
+    return(<div className="GirlImageComp">
+      </div>)
+  }
+}
+var Header = function () {
+  return(<header>
+  <ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Contact Us</li>
+</ul>
+</header>)
+}
+}
 
 
 
