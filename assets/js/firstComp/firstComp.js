@@ -13,7 +13,7 @@ class Layout extends Component {
     this.clickedBoy = this.clickedBoy.bind(this)
   }
 
-<Header /> 
+<Header />
  clickedBoy(){
  this.setState({
    health: this.state.health - 25
@@ -30,7 +30,7 @@ class Layout extends Component {
     <h3>health: {this.state.health}</h3>
     <h3>level: {this.state.level}</h3>
     </div>
-    <img src="/img/bape2.png" alt={'guy with bape on'} onClick ={this.clickedBoy} />
+
           </div>
     </div>)
 
@@ -43,7 +43,7 @@ class GirlImage extends Component {
     }
   }
   render () {
-    return(<div className="GirlImageComp">
+    return(<div className="GirlImageComp"><img src="/img/bape2.png" alt={'guy with bape on'} onClick ={this.clickedBoy} />
       </div>)
   }
 }
