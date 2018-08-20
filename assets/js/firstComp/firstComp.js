@@ -13,7 +13,7 @@ class Layout extends Component {
     this.clickedBoy = this.clickedBoy.bind(this)
   }
 
-
+<Header /> 
  clickedBoy(){
  this.setState({
    health: this.state.health - 25
