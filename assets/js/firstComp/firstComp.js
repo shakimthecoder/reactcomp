@@ -30,7 +30,7 @@ class Layout extends Component {
     <h3>health: {this.state.health}</h3>
     <h3>level: {this.state.level}</h3>
     </div>
-
+<GirlImage />
           </div>
     </div>)
 
